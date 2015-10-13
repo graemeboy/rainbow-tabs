@@ -1,5 +1,5 @@
-# rainbow-extensions package
+# Rainbow Extensions: An Atom Package
 
-A short description of your package.
+Adds color the text of atom tabs, according to file extension.
 
-![A screenshot of your package](https://f.cloud.github.com/assets/69169/2290250/c35d867a-a017-11e3-86be-cd7c5bf3ff9b.gif)
+![A screenshot of rainbow extensions](https://github.com/graemeboy/rainbow-extensions/resources/screenshot1.png)

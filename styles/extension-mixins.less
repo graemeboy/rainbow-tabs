@@ -1,0 +1,6 @@
+.rainbow-tab(@ext: ''; @color: '') {
+  tabs-bar tabs-tab .title[data-name$="@{ext}"],
+  .tab-bar .tab .title[data-name$="@{ext}"] {
+    color: @color;
+  }
+}
