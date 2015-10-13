@@ -1,10 +1,12 @@
 {
   "name": "rainbow-extensions",
   "main": "./lib/rainbow-extensions",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "Adds color the text of atom tabs, according to file extension",
   "keywords": [
-    "tabs", "color", "extension"
+    "tabs",
+    "color",
+    "extension"
   ],
   "activationCommands": {
     "atom-workspace": "rainbow-extensions:toggle"
@@ -14,6 +16,5 @@
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
   },
-  "dependencies": {
-  }
+  "dependencies": {}
 }
