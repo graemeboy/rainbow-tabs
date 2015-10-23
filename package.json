@@ -1,7 +1,7 @@
 {
   "name": "rainbow-extensions",
   "main": "./lib/rainbow-extensions",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Adds color the text of atom tabs, according to file extension",
   "keywords": [
     "tabs",
