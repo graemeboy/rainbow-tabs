@@ -8,9 +8,6 @@
     "color",
     "extension"
   ],
-  "activationCommands": {
-    "atom-workspace": "rainbow-extensions:toggle"
-  },
   "repository": "https://github.com/graemeboy/rainbow-extensions",
   "license": "MIT",
   "engines": {
