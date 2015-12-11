@@ -1,7 +1,7 @@
 {
   "name": "rainbox-tabs",
   "main": "./lib/rainbow-extensions",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Adds color the text of atom tabs, according to file extension",
   "keywords": [
     "tabs",
