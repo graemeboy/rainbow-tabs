@@ -1,14 +1,14 @@
 {
   "name": "rainbox-tabs",
-  "main": "./lib/rainbow-extensions",
+  "main": "./lib/rainbow-tabs",
   "version": "1.0.5",
-  "description": "Adds color the text of atom tabs, according to file extension",
+  "description": "Adds color the text of atom tabs, according to file extension (e.g. JS tabs are yellow)",
   "keywords": [
     "tabs",
     "color",
     "extension"
   ],
-  "repository": "https://github.com/graemeboy/rainbow-extensions",
+  "repository": "https://github.com/graemeboy/rainbow-tabs",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
