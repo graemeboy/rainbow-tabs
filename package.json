@@ -1,5 +1,5 @@
 {
-  "name": "rainbox-tabs",
+  "name": "rainbow-tabs",
   "main": "./lib/rainbow-tabs",
   "version": "2.0.0",
   "description": "Adds color to the text of atom tabs, according to file extension (e.g. JS tabs are yellow)",
