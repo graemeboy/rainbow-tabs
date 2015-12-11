@@ -2,7 +2,7 @@
   "name": "rainbox-tabs",
   "main": "./lib/rainbow-tabs",
   "version": "1.0.6",
-  "description": "Adds color the text of atom tabs, according to file extension (e.g. JS tabs are yellow)",
+  "description": "Adds color to the text of atom tabs, according to file extension (e.g. JS tabs are yellow)",
   "keywords": [
     "tabs",
     "color",
