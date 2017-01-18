@@ -1,6 +1,11 @@
-.rainbow-tab(@ext: ''; @color: '') {
-  tabs-bar tabs-tab .title[data-name$="@{ext}"],
-  .tab-bar .tab .title[data-name$="@{ext}"] {
-    color: @color;
+.rainbow-tab(@extList: '', @colorList: '', @length: 0, @i: 1) when (@i =< @length) {
+  @file: extract(@extList, @i);
+  @color: extract(@colorList, @i);
+  tabs-bar tabs-tab,
+  .tab-bar .tab {
+    .title[data-name$="@{file}"] {
+      color: @color;
+    }
   }
+  .rainbow-tab(@extList, @colorList, @length, (@i + 1));
 }
