@@ -1,22 +1,15 @@
 @import "rainbow-mixins";
-
-.rainbow-tab('.html', rgb(252,128,27));
-.rainbow-tab('.js', rgb(252,216,76));
-.rainbow-tab('.json', rgb(252,216,76));
-.rainbow-tab('.coffee', rgb(214,233,245));
-.rainbow-tab('.py', rgb(60, 120, 168));
-.rainbow-tab('.less', rgb(50, 90, 162));
-.rainbow-tab('.scss', #29abde);
-.rainbow-tab('.sass', #29abde);
-.rainbow-tab('.css', #29abde);
-.rainbow-tab('.php', rgb(107,125,196));
-.rainbow-tab('.json', rgb(252,216,76));
-.rainbow-tab('.rb', rgb(241,147,140));
-.rainbow-tab('.go', rgb(106, 215, 229));
-.rainbow-tab('.cpp', rgb(102, 154, 211));
-.rainbow-tab('.cc', rgb(102, 154, 211));
-.rainbow-tab('.java', rgb(221, 78, 56));
-.rainbow-tab('.erb', #cb6277);
-.rainbow-tab('.jsx', #61dafb);
-.rainbow-tab('.ex', #7F72A4);
-.rainbow-tab('.exs', #7F72A4);
+// List of file extensions.
+@extList: '.html', '.js', '.json',
+'.coffee', '.py', '.less', '.scss',
+'.sass', '.css', '.php', '.json',
+'.rb', '.go' , '.cpp', '.cc',
+'.java', '.erb', '.jsx', '.ex', '.exs';
+// List of file extension colors.
+@colorsList: rgb(252,128,027), rgb(252,216,076), rgb(252,216,076),
+rgb(214,233,245), rgb(060,120,168), rgb(050,090,162), rgb(204,102,153),
+rgb(204,102,153), rgb(041,171,222), rgb(107,125,196), rgb(252,216,076),
+rgb(241,147,140), rgb(106,215,229), rgb(102,154,211), rgb(102,154,211),
+rgb(221,078,056), rgb(203,098,119), rgb(097,218,251), rgb(127,114,164), rgb(127,114,164);
+// Provide the mixin with the extension list, colors list, and the # of extensions/files.
+.rainbow-tab(@extList, @colorsList, length(@extList));
